@@ -1,0 +1,43 @@
+/* src/components/Entrenamientos.css*/
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.content {
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+}
+
+.section {
+    position: absolute;
+    top: 60px; /* Ajusta según la altura de tu encabezado */
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    pointer-events: none; /* Evita la interacción con secciones no visibles */
+}
+
+.section.fade {
+    opacity: 1;
+    pointer-events: auto; /* Permite la interacción con la sección visible */
+}
+
+.footer {
+    flex-shrink: 0;
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}

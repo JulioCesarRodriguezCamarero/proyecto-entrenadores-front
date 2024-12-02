@@ -1,0 +1,8 @@
+/* src/components/layout/Body.css */
+
+body {
+    background-color: #f0f0f0; /* Gris claro */
+    background-image: url('../../assets/entramado2.jpg');
+    background-size: contain; /* Ajusta el tamaño del patrón */
+    background-repeat: repeat; /* Repite la imagen para crear un entramado */
+}

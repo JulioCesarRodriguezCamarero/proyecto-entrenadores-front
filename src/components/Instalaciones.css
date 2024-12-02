@@ -1,0 +1,44 @@
+/* Instalaciones.css */
+
+.instalaciones-container {
+    padding: 2rem;
+    text-align: center;
+}
+
+.titulo-principal {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.seccion-contenido {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.texto {
+    flex: 1;
+    margin: 0 1rem;
+}
+
+.texto h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.texto p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.imagen {
+    flex: 1;
+    margin: 0 1rem;
+}
+
+.imagen img {
+    width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+}

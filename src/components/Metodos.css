@@ -1,0 +1,50 @@
+/* Metodos.css */
+
+.div-1 {
+    padding: 2rem;
+    background-color: #f3f4f6;
+    text-align: center;
+}
+
+.h1-1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.custom-strong {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.content-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+}
+
+.text-section {
+    flex: 1;
+    margin: 0 1rem;
+}
+
+.text-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.text-section p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+.image-section {
+    flex: 1;
+    margin: 0 1rem;
+}
+
+.image-section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+}
