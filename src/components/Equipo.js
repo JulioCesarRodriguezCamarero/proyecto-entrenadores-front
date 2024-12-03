@@ -1,7 +1,9 @@
 // src/components/Equipo.js
 import React from 'react';
 import './Equipo.css'; // Importa el archivo CSS para estilos
-
+import entrenador1 from '../assets/flexi2.jpg';
+import entrenador2 from '../assets/cardio.jpg';
+import entrenador3 from '../assets/fuerza.jpg';
 const Entrenador = ({ nombre, especialidad, imagen }) => {
     return (
         <div className="entrenador">
@@ -16,9 +18,10 @@ const Entrenador = ({ nombre, especialidad, imagen }) => {
 
 const Equipo = () => {
     const entrenadores = [
-        { nombre: 'Martina ', especialidad: 'Elasticidad', imagen: 'assets/flexi2.jpg' },
-        { nombre: 'Alejandro ', especialidad: 'Cardio', imagen: 'assets/cardio.jpg' },
-        { nombre: 'Mar', especialidad: 'Fuerza', imagen: 'assets/fuerza.jpg' },
+        { nombre: 'Martina ', especialidad: 'Elasticidad', imagen: entrenador1 },
+        { nombre: 'Alejandro ', especialidad: 'Cardio', imagen: entrenador2 },
+        { nombre: 'Mar', especialidad: 'Fuerza', imagen: entrenador3
+         },
     ];
 
     return (
